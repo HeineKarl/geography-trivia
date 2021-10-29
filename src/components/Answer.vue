@@ -56,7 +56,7 @@ export default {
 }
 
 .incorrect {
-  background: #ff6961;
+  background: #fdaaaa;
   pointer-events: none;
 }
 

@@ -35,7 +35,8 @@ export default {
   justify-content: center;
 }
 .answer-btn {
-  width: clamp(14em, 40vw, 28em);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: clamp(10em, 40vw, 28em);
   font-size: clamp(0.85em, 3vw, 1.15em);
   height: 8em;
   border-radius: 0.6em;
@@ -55,12 +56,12 @@ export default {
 }
 
 .incorrect {
-  background: tomato;
+  background: rgb(233, 54, 54);
   pointer-events: none;
 }
 
 .correct {
-  background: lightgreen;
+  background: rgb(106, 230, 106);
   pointer-events: none;
 }
 </style>

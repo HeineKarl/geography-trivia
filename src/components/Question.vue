@@ -27,7 +27,7 @@ export default {
 
 .question-text {
   text-align: center;
-  font-size: clamp(1.15em, 4vw, 1.45em);
+  font-size: clamp(0.8em, 4vw, 1.45em);
   padding: 0 1em;
 }
 </style>

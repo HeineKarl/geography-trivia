@@ -62,7 +62,7 @@ export default {
 
 <style>
 .form-box {
-  background: lightgreen;
+  background: #eee;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,13 +70,16 @@ export default {
 }
 
 .form {
+  background: rgb(255, 214, 78);
   margin: 0 auto;
-  background: rgb(231, 231, 231);
   border-radius: 0.75em;
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 0 1em;
   height: 30em;
-  width: 25em;
+  /* width: 25em; */
+  width: clamp(18em, 80vw, 25em);
+  /* font-size: clamp(2em, 5vw, 4em); */
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,11 +90,14 @@ export default {
   padding: 1em 2em;
   background: var(--bg-button-clr--);
   border-radius: 1em;
+  font-size: clamp(0.8em, 4.5vw, 1em);
   color: white;
 }
 
 .input-box {
   width: 18em;
+  /* width: clamp(13em, 60vw, 18em); */
+  font-size: clamp(0.8em, 4vw, 1em);
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -16,7 +16,7 @@ export default {
 <style >
 .difficulty {
   /* background: green; */
-  padding: 0.25em;
+  padding: 0 0.25em;
 }
 /* .difficulty {
   width: var(--width);
@@ -26,7 +26,8 @@ export default {
   justify-content: center;
 } */
 
-/* .difficulty span {
+.difficulty span {
   text-align: center;
-} */
+  /* font-size: clamp(0.75em, 100vw, 1em); */
+}
 </style>

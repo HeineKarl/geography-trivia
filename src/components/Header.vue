@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-information">
-      <Category :category="category" />
+      <!-- <Category :category="category" /> -->
       <Difficulty :difficulty="difficulty" />
     </div>
     <TimeKeeper :timesOut="timesOut" :timeCounter="timeCounter" />
@@ -36,18 +36,20 @@ export default {
 
 <style>
 .header {
-  --width: 14em;
+  --width: clamp(10.75em, 5vw, 14em);
   --height: 4.5em;
-  background: lightgray;
+  background: rgb(255, 214, 78);
   height: 15vh;
   padding: 0 clamp(2em, 5vw, 4em);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: clamp(0.8em, 2vw, 1em);
+  font-size: clamp(0.65em, 3vw, 1em);
 }
 
 .header-information {
+  /* background: green; */
+  /* width: 14em; */
   width: var(--width);
   height: var(--height);
   display: flex;

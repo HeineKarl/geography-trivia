@@ -16,14 +16,14 @@ export default {
 <style>
 .category {
   /* background: pink; */
-  padding: 0.25em;
-  display: flex;
+  padding: 0 0.25em;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .category span {
   text-align: center;
-  /* font-size: clamp(0.5em, 100vw, 0.5em); */
+  /* font-size: clamp(0.5em, 50vw, 1em); */
 }
 </style>

@@ -20,7 +20,7 @@ export default {
 
 <style>
 .time-container {
-  --area-box: clamp(1em, 10vw, 5em);
+  --area-box: clamp(4em, 10vw, 4em);
   background-color: #1a1a1a;
   color: white;
   width: var(--area-box);

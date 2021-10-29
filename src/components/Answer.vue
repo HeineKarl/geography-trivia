@@ -56,12 +56,12 @@ export default {
 }
 
 .incorrect {
-  background: #fdaaaa;
+  background: rgb(233, 54, 54);
   pointer-events: none;
 }
 
 .correct {
-  background: #e8f4ea;
+  background: rgb(92, 221, 92);
   pointer-events: none;
 }
 </style>
